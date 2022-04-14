@@ -86,7 +86,7 @@ const BingoBoard = (props) => {
       <h1 className={styles.title}>{title}</h1>
       <h5 className={styles.title}>Write your own word for middle square</h5>
       <div className={combineClasses(styles.title, styles.generateBoard)}>
-        <a href="/">Generate new board</a>
+        <a href="/bingo">Generate new board</a>
       </div>
       <div className={styles.board}>
         {renderHeader()}
