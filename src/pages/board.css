@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+@media print {
+@page {
+    margin:0;
+}
+.generateBoard {
+    display:none;
+}
+.selected {
+    background: white;
+}
+}
+.title {
+    width: 100%;
+    text-align: center;
+}
+.board {
+    display:flex; 
+    flex-wrap: wrap;
+}
+
+.header {
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.square {
+    height:100px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    cursor: pointer;
+}
+.selected {
+    background: grey;
+}
