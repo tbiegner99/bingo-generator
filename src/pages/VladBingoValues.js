@@ -44,6 +44,10 @@ const values = [
   'NJ transit works because of me',
   'No mountains in the northeast',
   'Florida is great',
-  'yodo'
+  'yodo',
+  '"literally trash/garbage"',
+  'macs/apple is shitty',
+  'calls mike flaky',
+  'complains about someone elses coding style'
 ];
 export default values;
